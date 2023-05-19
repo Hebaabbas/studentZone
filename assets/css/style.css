@@ -85,7 +85,6 @@ h2 {
     .answers {
         width: 85%;
     }
-    transform: scale(0.219);
 
 }
 
@@ -110,7 +109,6 @@ h2 {
     .heading {
         font-size: 40px;
     }
-    transform: scale(0.219);
 
 }
 
@@ -133,7 +131,6 @@ h2 {
     .answers {
         width: 80%;
     }
-    transform: scale(0.277);
 }
 /* Styles for Desktop */
 @media screen and (min-width: 1600px) {
@@ -166,6 +163,4 @@ h2 {
     button {
         font-size: 25px;
     }
-
-    transform: scale(0.3181);
   }

@@ -52,3 +52,24 @@ The score section is visible and will be changed when the user clicks on "sumbit
 ### The answers page
 When the student chooses to click "See the right answers", this page will be displayed. This page shows each question and which multiple choice answer is the correct one. A button of "Go back to the article" is also available in this page to redirect the student to the main page; the article. 
 ![Alt Text](assets/images/answersList.png)
+
+## Testing:
+The testing was made on different sizes of devices, all the functions work perfectly fine. The background image is fixed to look nice in different sizes for all the different sizes of screens.
+There are no issue testing the code and with the help of validator testing:
+
+#### HTML
+
+No errors were returned when passing the code of index.html, questions.html and answers.html through the official W3C validator
+
+#### CSS
+
+No errors were found when passing through the official (Jigsaw) validator
+
+#### JavaScript
+
+No errors were found when passing through the official Jshint validator
+The following metrics were returned:
+There are 8 functions in this file.
+Function with the largest signature take 1 arguments, while the median is 0.
+Largest function has 25 statements in it, while the median is 2.5.
+The most complex function has a cyclomatic complexity value of 6 while the median is 2.
