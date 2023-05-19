@@ -49,3 +49,6 @@ This page shows the fourth and last question with three multiple choice answers 
 The score section is visible and will be changed when the user clicks on "sumbit my answers" to show the student how many points are right and how many are wrong.
 ![Alt Text](assets/images/q4.png)
 
+### The answers page
+When the student chooses to click "See the right answers", this page will be displayed. This page shows each question and which multiple choice answer is the correct one. A button of "Go back to the article" is also available in this page to redirect the student to the main page; the article. 
+![Alt Text](assets/images/answersList.png)
