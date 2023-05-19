@@ -8,3 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+// This variable keeps track of the index number of the question that is being shown.
+let currentQuestionIndex = 0;
+// This varible keeps the count of the right answers stored.
+let rightAnswers = 0;
+// This varible keeps the count of the wrong answers stored.
+let wrongAnswers = 0;
+// Variable is to track if the test has been submitted.
+let testSubmitted = false;
+
