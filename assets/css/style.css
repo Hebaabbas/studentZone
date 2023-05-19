@@ -137,12 +137,15 @@ h2 {
 }
 /* Styles for Desktop */
 @media screen and (min-width: 1600px) {
-    h3 {
-        font-size: 24px;
+    h2 {
+        font-size: 33px;
+    }
+    h3{
+        font-size: 25px;
     }
 
     body {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .heading {
