@@ -61,8 +61,8 @@ h2 {
     padding: 30px;
 }
 
-/* Styles for screens smaller than 650px */
-@media screen and (max-width: 768px) {
+/* Styles for Mobile */
+@media screen and (max-width: 767px) {
     h2 {
         font-size: 18px;
     }
@@ -73,6 +73,7 @@ h2 {
 
     body {
         font-size: 18px;
+        background-size: 100%;
     }
 
     .heading {
@@ -84,16 +85,20 @@ h2 {
     .answers {
         width: 85%;
     }
+    transform: scale(0.219);
+
 }
 
-/* Styles for screens between 768px and 1023px */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* Styles for Tablet */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     h3 {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     body {
-        font-size: 18px;
+        font-size: 19px;
+        background-size: 70%;
+
     }
 
     .information,
@@ -105,10 +110,12 @@ h2 {
     .heading {
         font-size: 40px;
     }
+    transform: scale(0.219);
+
 }
 
-/* Styles for screens larger than 1024px */
-@media screen and (min-width: 1024px) {
+/* Styles for Laptop */
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
     h3 {
         font-size: 20px;
     }
@@ -126,4 +133,36 @@ h2 {
     .answers {
         width: 80%;
     }
+    transform: scale(0.277);
 }
+/* Styles for Desktop */
+@media screen and (min-width: 1600px) {
+    h3 {
+        font-size: 24px;
+    }
+
+    body {
+        font-size: 24px;
+    }
+
+    .heading {
+        font-size: 45px;
+    }
+
+    .information,
+    .questions-area,
+    .answers {
+        width: 80%;
+    }
+    p{
+        font-size: 30px;
+    }
+    .question label {
+        font-size: 30px;
+      }
+    button {
+        font-size: 25px;
+    }
+
+    transform: scale(0.3181);
+  }
