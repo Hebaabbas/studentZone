@@ -1,0 +1,26 @@
+body {
+    background-image: url('../images/smart.jpeg');
+    font-family: 'Libre Bodoni', serif;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 0 0.2em;
+}
+
+.brain {
+    height: 60px;
+    padding-right: 10px;
+}
+
+article {
+    font-size: medium;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
