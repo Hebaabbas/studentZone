@@ -18,3 +18,7 @@ let wrongAnswers = 0;
 // Variable is to track if the test has been submitted.
 let testSubmitted = false;
 
+// This function directs the user to the question.html page.
+function openQuestionsPage() {
+    window.location.href = "questions.html";
+}
