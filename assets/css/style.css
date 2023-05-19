@@ -59,3 +59,70 @@ h2 {
     display: inline-block;
     padding: 30px;
 }
+
+/* Styles for screens smaller than 650px */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .information,
+    .questions-area,
+    .answers {
+        width: 85%;
+    }
+}
+
+/* Styles for screens between 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    h3 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .information,
+    .questions-area,
+    .answers {
+        width: 80%;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+}
+
+/* Styles for screens larger than 1024px */
+@media screen and (min-width: 1024px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 45px;
+    }
+
+    .information,
+    .questions-area,
+    .answers {
+        width: 80%;
+    }
+}
