@@ -22,3 +22,20 @@ let testSubmitted = false;
 function openQuestionsPage() {
     window.location.href = "questions.html";
 }
+// This function is called when the user clicks on the "Next Question" button which directs the user to the next question.
+function nextQuestion() {
+    if (testSubmitted) {
+        return;
+    }
+    const questions = document.getElementsByClassName("question");
+    const submitButton = document.getElementById("submit-button");
+    const nextButton = document.getElementById("next-button");
+
+    const currentQuestion = questions[currentQuestionIndex];
+
+    currentQuestion.style.display = "none";
+
+    if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        questions[currentQuestionIndex].style.display = "block";
+    }
