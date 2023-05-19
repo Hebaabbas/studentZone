@@ -25,7 +25,9 @@ h2 {
     text-align: center;
 }
 
-.information,.questions-area,.answers {
+.information,
+.questions-area,
+.answers {
     width: 60%;
     font-size: 1rem;
     margin: auto;
@@ -35,4 +37,25 @@ h2 {
     background: black center center / cover no-repeat fixed;
     text-align: left;
 
+}
+
+.score-area {
+    margin: 5px auto;
+    width: 50%;
+    font-size: 1rem;
+}
+
+#right {
+    color: white;
+    font-weight: bold;
+}
+
+#wrong {
+    color: red;
+    font-weight: bold;
+}
+
+.scores {
+    display: inline-block;
+    padding: 30px;
 }
