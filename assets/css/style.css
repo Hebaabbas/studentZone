@@ -24,3 +24,15 @@ article {
 h2 {
     text-align: center;
 }
+
+.information,.questions-area,.answers {
+    width: 60%;
+    font-size: 1rem;
+    margin: auto;
+    padding: 30px 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: black center center / cover no-repeat fixed;
+    text-align: left;
+
+}
