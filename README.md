@@ -77,3 +77,9 @@ The most complex function has a cyclomatic complexity value of 6 while the media
 ### Unfixed bugs:
 There are no unfixed bugs found.
 
+### Deployment
+The site was deployed to GitHub pages:
+First, in the GitHub repository, the studentZone is picked, the setting tab is picked,then pages are picked which are found under code and automation.
+From the build and deployment section, the Main Branch is selected and saved.
+The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://hebaabbas.github.io/studentZone/ 
