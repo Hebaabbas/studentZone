@@ -102,3 +102,7 @@ function getSelectedAnswer(question) {
     }
     return null;
 }
+// This function will redirect the user to the "index.html" page.
+function goToArticlePage() {
+    window.location.href = "index.html";
+}
