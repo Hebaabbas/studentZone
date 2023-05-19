@@ -39,3 +39,9 @@ function nextQuestion() {
         currentQuestionIndex++;
         questions[currentQuestionIndex].style.display = "block";
     }
+    // This function is to show or hide buttons based on the current question index
+    if (currentQuestionIndex === questions.length - 1) {
+        submitButton.style.display = "block";
+        nextButton.style.display = "none";
+    }
+}
