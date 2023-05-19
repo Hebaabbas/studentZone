@@ -106,3 +106,7 @@ function getSelectedAnswer(question) {
 function goToArticlePage() {
     window.location.href = "index.html";
 }
+// This function will redirect the user to the "answers.html" page.
+function goToRightAnswers() {
+    window.location.href = "answers.html";
+}
