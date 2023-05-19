@@ -83,3 +83,9 @@ First, in the GitHub repository, the studentZone is picked, the setting tab is p
 From the build and deployment section, the Main Branch is selected and saved.
 The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://hebaabbas.github.io/studentZone/ 
+
+## Credits:
+### Content:
+The website is an idea to help the students test their reading skills, the article the questions and the answers are all taken from the website found in the footer of the main page. Which is https://www.ieltsjacky.com/.
+### Media:
+The pictures used in the logo and background are just a searched images found on https://www.google.com/.
