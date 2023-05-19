@@ -45,3 +45,60 @@ function nextQuestion() {
         nextButton.style.display = "none";
     }
 }
+// This function is to called when the user clicks on the "Submit my answers" button.
+function submitAnswers() {
+    if (testSubmitted) {
+        return;
+    }
+
+    // Question 1
+    const question1 = document.getElementsByName('q1');
+    const selectedAnswer1 = getSelectedAnswer(question1);
+    if (selectedAnswer1 === 'q1-1') {
+        rightAnswers++;
+    } else {
+        wrongAnswers++;
+    }
+
+    // Question 2
+    const question2 = document.getElementsByName('q2');
+    const selectedAnswer2 = getSelectedAnswer(question2);
+    if (selectedAnswer2 === 'q2-3') {
+        rightAnswers++;
+    } else {
+        wrongAnswers++;
+    }
+
+    // Question 3
+    const question3 = document.getElementsByName('q3');
+    const selectedAnswer3 = getSelectedAnswer(question3);
+    if (selectedAnswer3 === 'q3-3') {
+        rightAnswers++;
+    } else {
+        wrongAnswers++;
+    }
+
+    // Question 4
+    const question4 = document.getElementsByName('q4');
+    const selectedAnswer4 = getSelectedAnswer(question4);
+    if (selectedAnswer4 === 'q4-2') {
+        rightAnswers++;
+    } else {
+        wrongAnswers++;
+    }
+
+    // Update the wrong and right points on the HTML page
+    document.getElementById('right').textContent = rightAnswers.toString();
+    document.getElementById('wrong').textContent = wrongAnswers.toString();
+
+    testSubmitted = true; // Set the testSubmitted flag to true
+}
+// This function returns the answer of each question and will return null incase no answer was selected. 
+function getSelectedAnswer(question) {
+    for (let i = 0; i < question.length; i++) {
+        if (question[i].checked) {
+            return question[i].value;
+        }
+    }
+    return null;
+}
